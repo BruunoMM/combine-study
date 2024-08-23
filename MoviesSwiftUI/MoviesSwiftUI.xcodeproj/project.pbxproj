@@ -14,6 +14,7 @@
 		8DE9EE912AD9C86B007BDF3C /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE9EE902AD9C86B007BDF3C /* HTTPClient.swift */; };
 		8DE9EE942AD9C8D6007BDF3C /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE9EE932AD9C8D6007BDF3C /* Movie.swift */; };
 		8DE9EE972AD9C915007BDF3C /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE9EE962AD9C915007BDF3C /* String+Extensions.swift */; };
+		D7858C872C752550002B3577 /* MovieListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7858C862C752550002B3577 /* MovieListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		8DE9EE902AD9C86B007BDF3C /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		8DE9EE932AD9C8D6007BDF3C /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		8DE9EE962AD9C915007BDF3C /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		D7858C862C752550002B3577 /* MovieListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 		8DE9EE802AD9C7FE007BDF3C /* MoviesSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				D7858C852C752537002B3577 /* ViewModels */,
 				8DE9EE952AD9C909007BDF3C /* Extensions */,
 				8DE9EE922AD9C8C7007BDF3C /* Models */,
 				8DE9EE8F2AD9C861007BDF3C /* Clients */,
@@ -98,6 +101,14 @@
 				8DE9EE962AD9C915007BDF3C /* String+Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D7858C852C752537002B3577 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D7858C862C752550002B3577 /* MovieListViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +186,7 @@
 				8DE9EE822AD9C7FE007BDF3C /* MoviesSwiftUIApp.swift in Sources */,
 				8DE9EE942AD9C8D6007BDF3C /* Movie.swift in Sources */,
 				8DE9EE912AD9C86B007BDF3C /* HTTPClient.swift in Sources */,
+				D7858C872C752550002B3577 /* MovieListViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
