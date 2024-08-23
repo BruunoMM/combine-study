@@ -12,7 +12,7 @@ struct MoviesSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationStack {
-                ContentView()
+                ContentView(viewModel: MovieListViewModel())
             }
         }
     }
