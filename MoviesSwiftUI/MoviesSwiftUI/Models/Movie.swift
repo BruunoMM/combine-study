@@ -1,14 +1,11 @@
-//
-//  Movie.swift
-//  MoviesAppUIKit
-//
-//  Created by Mohammad Azam on 10/13/23.
-//
-
 import Foundation
 
-struct MovieResponse: Decodable {
-    let Search: [Movie]
+struct SearchResponse: Decodable {
+    let search: [Movie]
+
+    enum CodingKeys: String, CodingKey {
+        case search = "Search"
+    }
 }
 
 struct Movie: Identifiable, Decodable {
